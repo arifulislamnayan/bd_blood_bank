@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name"> ব্লাড ব্যাংক বাংলাদেশ  </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_barisal">বরিশাল বিভাগ  </string>
+    <string name="title_activity_chittagong">চট্টগাম বিভাগ </string>
+    <string name="title_activity_dhaka">ঢাকা বিভাগ </string>
+    <string name="title_activity_khulna">খুলনা বিভাগ </string>
+    <string name="title_activity_rajshahi">রাজশাহী বিভাগ </string>
+    <string name="title_activity_rangpur">রংপুর বিভাগ </string>
+    <string name="title_activity_sylhet">সিলেট বিভাগ </string>
+
+    <!-- Cht-->
+    <!--<string name="Title">Name: Chittagong Medical College </string>-->
+    <!--<string name="Type">Type: Sandhani Blood Bank </string>-->
+    <!--<string name="Address">Address: College Campus </string>-->
+    <!--<string name="Contact">Contact: +8801812483918 </string>-->
+
+    <string name="call">কল করুন </string>
+    <string name="map">গুগল ম্যাপে দেখুন </string>
+
+
+    <string-array name="barisal_bb_address">
+        <item>
+
+             &#160;নামঃ শেরে বাংলা মেডিক্যাল কলেজ ব্লাড ব্যাংক\n
+             ধরণঃ সন্ধানী ব্লাড ব্যাংক \n
+             ঠিকানাঃ মেডিক্যাল কলেজ শাখা \n
+             যোগাযোগঃ ০১২৩৪৫৬৭৮ \n
+
+        </item>
+
+        <item>
+
+            &#160;নামঃ পিরোজপুর সদর হাসপাতাল ব্লাড ব্যাংক\n
+             ধরণঃ সন্ধানী ব্লাড ব্যাংক\n
+             ঠিকানাঃ পিরোজপুর সদর হাসপাতাল \n
+             যোগাযোগঃ ০১২৩৪৫৬৭৮\n
+
+
+        </item>
+
+        <item>
+
+            &#160;নামঃ ঝালকাঠি  সদর হাসপাতাল ব্লাড ব্যাংক\n
+             ধরণঃ সন্ধানী ব্লাড ব্যাংক\n
+             ঠিকানাঃ ঝালকাঠি  সদর হাসপাতাল \n
+             যোগাযোগঃ ০১২৩৪৫৬৭৮\n
+
+
+        </item>
+
+        <item>
+
+             &#160;নামঃ বরিশাল সদর হাসপাতাল ব্লাড ব্যাংক\n
+             ধরণঃ সন্ধানী ব্লাড ব্যাংক\n
+             ঠিকানাঃ  সদর হাসপাতাল \n
+             যোগাযোগঃ ০১২৩৪৫৬৭৮\n
+
+
+        </item>
+
+
+
+
+    </string-array>
+
+    <string-array name="chittagong_bb">
+        <item>
+
+            নামঃ সন্ধানী ব্লাড ব্যাঙ্ক\n
+            ঠিকানাঃ কোঁতয়ালী চট্টগ্রাম, সদর চট্টগাম। \n
+            যোগাযোগঃ 031616625 \n
+        </item>
+
+        <item>
+
+            নামঃ সন্ধানী ব্লাড ব্যাঙ্ক\n
+            ঠিকানাঃ কোঁতয়ালী চট্টগ্রাম, সদর চট্টগাম। \n
+            যোগাযোগঃ 031616625 \n
+        </item>
+
+
+    </string-array>
+    <string-array name="barisal_bb_contact">
+        <item>
+            0123456789
+
+        </item>
+        <item>
+            0123456789
+
+        </item>
+        <item>
+            0123456789
+
+        </item>
+    </string-array>
+</resources>
