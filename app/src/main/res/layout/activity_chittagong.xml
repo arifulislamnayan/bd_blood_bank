@@ -1,107 +1,239 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
 
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
 
-    tools:context="bdbloodbank.arif.com.bdbloodbank.ChittagongActivity">
-    <ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
+<RelativeLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:paddingLeft="16dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@id/android:list" />
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ctg1"
+        android:id="@+id/tvItem" />
+
+    <LinearLayout
+        android:id="@+id/lid1"
+        android:layout_below="@+id/tvItem"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/call"
+            android:id="@+id/call_ctg_2"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/map"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lid1"
+        android:gravity="left"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ctg2"
+        android:id="@+id/tvItem2" />
+
+    <LinearLayout
+        android:id="@+id/lid2"
+        android:layout_below="@+id/tvItem2"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/call"
+            android:id="@+id/call_ctg3"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/map"/>
+    </LinearLayout>
+
+
+
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lid2"
+        android:gravity="left"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ctg3"
+        android:id="@+id/tvItem3" />
+
+    <LinearLayout
+        android:id="@+id/lid3"
+        android:layout_below="@+id/tvItem3"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/call"
+            android:id="@+id/call_ctg4"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/map"/>
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lid3"
+        android:gravity="left"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ctg4"
+        android:id="@+id/tvItem4" />
+
+    <LinearLayout
+        android:id="@+id/lid4"
+        android:layout_below="@+id/tvItem4"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/call"
+            android:id="@+id/call_ctg5"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/map"/>
+    </LinearLayout>
+
     <!--<TextView-->
-        <!--android:text="-->
-        <!--নামঃ চট্টগাম মেডিক্যাল কলেজ ব্লাড ব্যাংক \n-->
-        <!--ধরনঃ ব্লাড ব্যাংক\n-->
-        <!--ঠিকানাঃ মেডিক্যাল কলেজ ক্যাম্পাস \n-->
-        <!--যোগাযোগঃ +8801812483918\n"-->
+
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_below="@+id/lid4"-->
+        <!--android:gravity="left"-->
+        <!--android:paddingLeft="16dp"-->
         <!--android:layout_width="match_parent"-->
-        <!--android:textColor="@android:color/white"-->
         <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/textView" />-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Medium Text"-->
+        <!--android:id="@+id/tvItem5" />-->
 
-    <!--<Button-->
-        <!--android:layout_width="120dp"-->
-        <!--android:layout_height="60dp"-->
-        <!--android:text="Call"-->
-        <!--android:onClick="callPhone"-->
-        <!--android:id="@+id/call_button"-->
-        <!--android:textColor="@android:color/white"-->
-        <!--android:layout_below="@+id/textView" />-->
-
-    <!--<Button-->
-        <!--style="?android:attr/buttonStyleSmall"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="60dp"-->
-        <!--android:text=""-->
-        <!--android:textColor="@android:color/white"-->
-        <!--android:id="@+id/button2"-->
-        <!--android:layout_marginLeft="30dp"-->
-        <!--android:layout_below="@+id/textView"-->
-        <!--android:layout_toRightOf="@+id/call_button"-->
-         <!--/>-->
-
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lid5"-->
+        <!--android:layout_below="@+id/tvItem5"-->
+        <!--android:weightSum="4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/call"-->
+            <!--android:id="@+id/call_ctg6"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/map"/>-->
+    <!--</LinearLayout>-->
 
     <!--<TextView-->
-        <!--android:layout_width="280dp"-->
+
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_below="@+id/lid5"-->
+        <!--android:gravity="left"-->
+        <!--android:paddingLeft="16dp"-->
+        <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
-        <!--android:textColor="@android:color/white"-->
-        <!--android:layout_marginBottom="5dp"-->
-        <!--android:text="@string/Title"-->
-        <!--android:id="@+id/tvTitleName"-->
-         <!--/>-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Medium Text"-->
+        <!--android:id="@+id/tvItem6" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lid6"-->
+        <!--android:layout_below="@+id/tvItem6"-->
+        <!--android:weightSum="4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/call"-->
+            <!--android:id="@+id/call_ctg7"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/map"/>-->
+    <!--</LinearLayout>-->
+
     <!--<TextView-->
-        <!--android:layout_width="280dp"-->
+
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_below="@+id/lid6"-->
+        <!--android:gravity="left"-->
+        <!--android:paddingLeft="16dp"-->
+        <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginBottom="5dp"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Medium Text"-->
+        <!--android:id="@+id/tvItem7" />-->
 
-        <!--android:layout_below="@+id/tvTitleName"-->
-        <!--android:textColor="@android:color/white"-->
-        <!--android:text="@string/Type"-->
-        <!--android:id="@+id/tvType"/>-->
-    <!--<TextView-->
-        <!--android:layout_width="280dp"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginBottom="5dp"-->
-
-        <!--android:textColor="@android:color/white"-->
-        <!--android:layout_below="@id/tvType"-->
-        <!--android:id="@+id/tvAddress"-->
-        <!--android:text="@string/Address"-->
-        <!--/>-->
-    <!--<TextView-->
-        <!--android:layout_width="280dp"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:textColor="@android:color/white"-->
-        <!--android:layout_below="@+id/tvAddress"-->
-        <!--android:layout_marginBottom="5dp"-->
-
-        <!--android:text="@string/Contact"/>-->
-
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="65dp"-->
-        <!--android:text=""-->
-        <!--android:id="@+id/btn_location"-->
-        <!--android:background="@drawable/location"-->
-
-        <!--android:layout_above="@+id/tvAddress"-->
-        <!--android:layout_toRightOf="@+id/tvTitleName"-->
-        <!--android:layout_toEndOf="@+id/tvTitleName"-->
-        <!--android:layout_alignParentTop="true" />-->
-
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="65dp"-->
-        <!--android:text=""-->
-        <!--android:id="@+id/btn_call"-->
-        <!--android:background="@drawable/icon_android_dialler"-->
-        <!--android:onClick="callPhone"-->
-        <!--android:layout_below="@+id/tvType"-->
-        <!--android:layout_toRightOf="@+id/tvAddress"-->
-        <!--android:layout_toEndOf="@+id/tvAddress" />-->
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lid7"-->
+        <!--android:layout_below="@+id/tvItem7"-->
+        <!--android:weightSum="4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/call"-->
+            <!--android:id="@+id/call_ctg8"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/map"/>-->
+    <!--</LinearLayout>-->
 
 </RelativeLayout>
+
+</ScrollView>

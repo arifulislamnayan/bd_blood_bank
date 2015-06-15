@@ -1,12 +1,425 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="bdbloodbank.arif.com.bdbloodbank.DhakaActivity">
 
-    <TextView android:text="Dhaka" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@android:color/holo_red_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-</RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@android:color/white"
+
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk1"
+            android:id="@+id/tvItem" />
+
+        <LinearLayout
+
+            android:id="@+id/lid1"
+            android:layout_below="@+id/tvItem"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:onClick="callPhone_dhk1"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk_2"
+                />
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid1"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk2"
+            android:id="@+id/tvItem2" />
+
+        <LinearLayout
+            android:id="@+id/lid2"
+            android:layout_below="@+id/tvItem2"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+
+                android:layout_width="0dp"
+                android:onClick="callPhone_dhk2"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk3"
+                />
+            <Button
+
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid2"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk3"
+            android:id="@+id/tvItem3" />
+
+        <LinearLayout
+            android:id="@+id/lid3"
+            android:layout_below="@+id/tvItem3"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk3"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk4"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid3"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk4"
+            android:id="@+id/tvItem4" />
+
+        <LinearLayout
+            android:id="@+id/lid4"
+            android:layout_below="@+id/tvItem4"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk4"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk5"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@android:color/white"
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid4"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk5"
+            android:id="@+id/tvItem5" />
+
+        <LinearLayout
+            android:id="@+id/lid5"
+            android:layout_below="@+id/tvItem5"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk5"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk6"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid5"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk6"
+            android:id="@+id/tvItem6" />
+
+        <LinearLayout
+            android:id="@+id/lid6"
+            android:layout_below="@+id/tvItem6"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk6"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk7"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid6"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk7"
+            android:id="@+id/tvItem7" />
+
+        <LinearLayout
+            android:id="@+id/lid7"
+            android:layout_below="@+id/tvItem7"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk7"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk8"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid7"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk8"
+            android:id="@+id/tvItem8" />
+
+        <LinearLayout
+            android:id="@+id/lid8"
+            android:layout_below="@+id/tvItem8"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk8"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk9"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid8"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk9"
+            android:id="@+id/tvItem9" />
+
+        <LinearLayout
+            android:id="@+id/lid9"
+            android:layout_below="@+id/tvItem9"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk9"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk10"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid9"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk10"
+            android:id="@+id/tvItem10" />
+
+        <LinearLayout
+            android:id="@+id/lid10"
+            android:layout_below="@+id/tvItem10"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk10"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk11"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid10"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk11"
+            android:id="@+id/tvItem11" />
+
+        <LinearLayout
+            android:id="@+id/lid11"
+            android:layout_below="@+id/tvItem11"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk11"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk12"
+                />
+            <Button
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"
+                android:layout_width="0dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lid11"
+            android:gravity="left"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/dhk12"
+            android:id="@+id/tvItem12" />
+
+        <LinearLayout
+            android:id="@+id/lid12"
+            android:layout_below="@+id/tvItem12"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:onClick="callPhone_dhk12"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/call"
+                android:id="@+id/call_dhk13"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/map"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -3,6 +3,7 @@ package bdbloodbank.arif.com.bdbloodbank;
 import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -73,6 +74,7 @@ public class MainActivity extends ListActivity {
 
         //Toast.makeText(getApplicationContext(),"You have selected "+division[position]+" division ",Toast.LENGTH_SHORT).show();
     }
+
 
 //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {

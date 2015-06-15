@@ -13,7 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 
 
-public class ChittagongActivity extends ListActivity {
+public class ChittagongActivity extends Activity {
     private Button call_button;
     private String[] chittagong_bb_address;
 
@@ -23,10 +23,10 @@ public class ChittagongActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chittagong);
-        chittagong_bb_address = getResources().getStringArray(R.array.chittagong_bb);
-
-        adapter = new ArrayAdapter<String>(this, R.layout.list_item_address, R.id.tvItem,chittagong_bb_address);
-        setListAdapter(adapter);
+//        chittagong_bb_address = getResources().getStringArray(R.array.chittagong_bb);
+//
+//        adapter = new ArrayAdapter<String>(this, R.layout.list_item_address, R.id.tvItem,chittagong_bb_address);
+//        setListAdapter(adapter);
 
 
     }

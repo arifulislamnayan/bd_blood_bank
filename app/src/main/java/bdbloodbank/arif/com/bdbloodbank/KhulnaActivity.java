@@ -1,10 +1,13 @@
 package bdbloodbank.arif.com.bdbloodbank;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class KhulnaActivity extends Activity {
@@ -14,7 +17,12 @@ public class KhulnaActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_khulna);
     }
-
+ public void callPhone_khl1(View v)
+ {
+     Intent callIntent = new Intent(Intent.ACTION_CALL);
+     callIntent.setData(Uri.parse("tel:041-761509"));
+     startActivity(callIntent);
+ }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
